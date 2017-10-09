@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="dialog_min_width">300dp</dimen>
+    <dimen name="size_emo_view">30dp</dimen>
+</resources>

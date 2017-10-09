@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="selector_background" format="reference" />
+    <attr name="colorToolBar" format="reference" />
+
+    <attr name="colorOwner" format="reference" />
+    <attr name="colorOwnerDark" format="reference" />
+    <attr name="colorLine" format="reference" />
+    <attr name="colorTextPrimary" format="reference" />
+</resources>

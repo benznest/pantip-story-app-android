@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?colorPrimaryDark"
+              android:padding="8dp"
+              android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:background="?colorLine"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_comment"
+        android:layout_marginLeft="8dp"/>
+    <TextView
+        android:id="@+id/tv_count_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="กำลังโหลด"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/colorTextPrimary"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:background="?colorLine"/>
+</LinearLayout>

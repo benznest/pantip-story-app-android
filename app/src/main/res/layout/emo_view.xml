@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?colorPrimary"
+    android:padding="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="?colorLine"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?colorPrimary"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/fl_emo_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_like"
+                    android:id="@+id/imageView3"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="?colorLine"/>
+
+            <FrameLayout
+                android:id="@+id/fl_emo_lol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_lol"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="?colorLine"/>
+
+            <FrameLayout
+                android:id="@+id/fl_emo_love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_in_love_c"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="?colorLine"/>
+
+            <FrameLayout
+                android:id="@+id/fl_emo_crying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_crying"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="?colorLine"/>
+
+            <FrameLayout
+                android:id="@+id/fl_emo_vomited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_vomited"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="?colorLine"/>
+
+            <FrameLayout
+                android:id="@+id/fl_emo_surprised"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?selector_background"
+                android:padding="6dp">
+
+                <ImageView
+                    android:layout_width="@dimen/size_emo_view"
+                    android:layout_height="@dimen/size_emo_view"
+                    android:src="@drawable/ic_surprise"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

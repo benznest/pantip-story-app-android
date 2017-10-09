@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemePantip" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPantip</item>
+        <item name="colorPrimaryDark">@color/colorPantipDark</item>
+        <item name="colorAccent">@color/colorPantipAccent</item>
+        <item name="colorToolBar">@color/colorPantipToolBar</item>
+        <item name="colorOwner">@color/colorPantipOwner</item>
+        <item name="colorOwnerDark">@color/colorPantipOwnerDark</item>
+        <item name="colorLine">@color/colorPantipLine</item>
+        <item name="colorTextPrimary">@color/colorPantipTextPrimary</item>
+        <item name="selector_background">@drawable/selector_background_pantip</item>
+    </style>
+
+    <style name="AppThemePantipCommemorate" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPantipCom</item>
+        <item name="colorPrimaryDark">@color/colorPantipComDark</item>
+        <item name="colorAccent">@color/colorPantipComAccent</item>
+        <item name="colorToolBar">@color/colorPantipComToolBar</item>
+        <item name="colorOwner">@color/colorPantipComOwner</item>
+        <item name="colorOwnerDark">@color/colorPantipComOwnerDark</item>
+        <item name="colorLine">@color/colorPantipComLine</item>
+        <item name="colorTextPrimary">@color/colorPantipComTextPrimary</item>
+        <item name="selector_background">@drawable/selector_background_pantip_commemorate</item>
+    </style>
+
+    <style name="AppThemePantipLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPantipLight</item>
+        <item name="colorPrimaryDark">@color/colorPantipLightDark</item>
+        <item name="colorAccent">@color/colorPantipLightAccent</item>
+        <item name="colorToolBar">@color/colorPantipLightToolBar</item>
+        <item name="colorOwner">@color/colorPantipLightOwner</item>
+        <item name="colorOwnerDark">@color/colorPantipLightOwnerDark</item>
+        <item name="colorLine">@color/colorPantipLightLine</item>
+        <item name="colorTextPrimary">@color/colorPantipLightTextPrimary</item>
+        <item name="selector_background">@drawable/selector_background_pantip_light</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppThemePantip">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="MySwitch" parent="Theme.AppCompat">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorSilver</item>
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.benzneststudios.pantipstory2">
+
+    <application
+        android:name="com.benzneststudios.pantipstory2.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemePantip">
+        <activity
+            android:name="com.benzneststudios.pantipstory2.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.benzneststudios.pantipstory2.activity.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="pantip.com" />
+                <data android:scheme="http" android:host="pantip.com" />
+                <data android:scheme="https" android:host="m.pantip.com" />
+                <data android:scheme="http" android:host="m.pantip.com" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7a9afd0beedc81839b6b261bbd8c6164c1052e11" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
