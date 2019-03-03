@@ -4,7 +4,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:background="?colorPrimary"
-             tools:context="com.benzneststudios.pantipstory2.fragment.TopicListFragment">
+             tools:context="com.benznestdeveloper.pantipstory.fragment.TopicListFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

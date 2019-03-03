@@ -134,7 +134,7 @@
                     android:layout_height="30dp"
                     android:src="@drawable/ic_more"/>
             </LinearLayout>
-            <com.benzneststudios.pantipstory2.view.MyEmoCountView
+            <com.benznestdeveloper.pantipstory.view.MyEmoCountView
                 android:id="@+id/emo_count_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

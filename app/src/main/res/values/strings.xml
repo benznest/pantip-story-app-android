@@ -6,6 +6,7 @@
 
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ads_id_1">ca-app-pub-8439082072622445/1869621349</string>
+    <string name="ads_id_2">ca-app-pub-8439082072622445/7363397278</string>
+    <string name="ads_id_3">ca-app-pub-8439082072622445/8881504839</string>
 </resources>

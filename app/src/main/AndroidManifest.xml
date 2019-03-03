@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.benzneststudios.pantipstory2">
+          package="com.benznestdeveloper.pantipstory">
 
     <application
-        android:name="com.benzneststudios.pantipstory2.MyApplication"
+        android:name="com.benznestdeveloper.pantipstory.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppThemePantip">
         <activity
-            android:name="com.benzneststudios.pantipstory2.activity.MainActivity"
+            android:name="com.benznestdeveloper.pantipstory.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name="com.benzneststudios.pantipstory2.activity.SplashScreenActivity"
+            android:name="com.benznestdeveloper.pantipstory.activity.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

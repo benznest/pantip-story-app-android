@@ -229,7 +229,7 @@
                     android:layout_height="1dp"
                     android:background="?colorLine"/>
 
-                <com.benzneststudios.pantipstory2.view.MyEmoView
+                <com.benznestdeveloper.pantipstory.view.MyEmoView
                     android:id="@+id/emo_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
